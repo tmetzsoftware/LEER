@@ -1,3 +1,59 @@
+	
+		
+# LEER
+
+Land of Eternal Elementals Reborns
+
+## What is this?
+
+This is a practice project to learn some basics of GIT and Python. All project and system names are draft conceptual and may not be the final end results. 
+
+I am going to attempt to learn this overly complicated project as a relative beginner to coding and programming and keep it documented in this GIT. I am making this publicly available and completely open source if you wish to use it.
+
+I am completely open to community support and if there is interest can set up any Discord or Reddit or whatever to take feedback and comments. If anything comes from this I support using it for any kind of research and development of your own.
+
+I reserve any rights to making any commercial product based off of this code unless it is the base system to get your original product to run. It cannot share any direct similarities with this product if you are using this for anything commercial.
+
+Not sure if any of this matters, I am really just playing around with learning how to use git to try and push/pull the repo for PyCharm to be honest. OK, I think I am back, still haven't been able to get git to update but at least it finally saved the README file in my explorer from PyCharm. Windows 11 had to go and move menus around didn't they? 
+
+## Goals I wish to accomplish:
+
+1. I am going to build a very basic RPG game to learn Python principles and how to optimize reading/writing data with Python.
+2. I am going to play around with making some procedural generation to expand that knowledge.
+3. I am going to incorporate AI and machine learning type principles to attempt to expand on the PO.
+4. I am going to attempt to link everything together:
+   - LEER game is an RPG-style game that will have keyboard/mouse action style combat, preferably over the shoulder style.
+   - Players can join up to run a campaign in LEER together.
+     - Ideally, I want to play around with blockchain security of some kind, like keeping player characters on a blockchain, for security in multiplayer to learn the principles.
+     - I want to make it so no one can use this tech to make any kind of crypto currency bullshit in the future.
+     - The use case I want to attempt is purely for learning and probably complete garbage in practice.
+     - Basically, there can be campaigns in some global ledger of "world" that can use the other systems.
+       - The other systems can then generate new quests, raids, dungeons, etc. like the standalone system can.
+       - Players can join each other's instances using the blockchain for security.
+       - Their individual PC handles all the game and rendering, server handles validating both clients.
+       - If both clients are validated, the blockchain becomes a local cache of variables for their cluster.
+       - Their cluster would be something like coordinates on a world map, AKA coordinates of a 3D array in a blockchain network.
+       - Then at fixed intervals, the server takes all the clusters' data that the local instances are generating and combines it all into the master record on the server.
+     - The cluster will keep the data as a branch on the main chain of all the cluster groupings (such as player parties, or just a large group of players in a small area on the map) and will purge and update when the clock cycle on the main branch calls for it to update the chain (like a TCP principle maybe but I honestly am talking out of my ass).
+     - That will update the chains globally available cache, which is then used to update the next cluster and so on.
+     - Then as it goes through the system, it will update all the individual players' instances of the game with the most up-to-date information.
+5. I want to make the code as efficient as possible and use good programming principles like modularity and abstraction.
+
+I want to make sure the code is well-documented and easy to read for anyone who might want to learn from it.
+How to use this?
+Feel free to clone this repository and play around with the code. If you want to contribute, please feel free to fork the repository and submit pull requests. I would appreciate any feedback or suggestions for improvement.
+
+To run the LEER game, simply run the main.py file.
+
+Disclaimer
+I am a beginner programmer and this project is purely for learning purposes. I cannot guarantee the stability or security of the code. Use at your own risk.
+
+
+
+
+
+
+Original CHATGPT used to creat this file:
 # LEER
 Land of Eternal Elementals Reborns
 
@@ -51,4 +107,4 @@ Goals I wish to accomplish:
 		i. we parse really old data because we have the AI model that can guess 
 		ii. aroma is indexing and making a corpus so well that the file to keep the history becomes super tiny
 		iii. if ChatGPT can do it, why not a network of gamers PC's and a tiny footprint of data on a neural net to PO generate an MMO?
-		
+	
