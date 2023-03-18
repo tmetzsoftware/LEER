@@ -1,0 +1,60 @@
+LEER
+Land of Eternal Elementals Reborn
+
+Game Design
+
+For App launch and login:
+
+<< Launch app and validate login: Classes and Methods Game init(): Initializes the game and connects to the server Window init(): Initializes the main window of the game LoginScreen display(): Displays the login screen Account init(username, password): Initializes the account object with the given username and password authenticate(): Authenticates the account against the server get_characters(): Returns a list of character objects associated with the account create_character(name): Creates a new character with the given name Character init(name, attributes): Initializes a character object with the given name and attributes save(): Saves the character to the character list JSON file validate(): Validates the character against the public ledger and other players CharacterList init(account_id): Initializes the character list object for the given account ID get_character(character_id): Returns the character object with the given ID Encryption encrypt(data): Encrypts the given data for validation JSON Files accounts.json: Contains the account information, with each account represented as a JSON object with the following properties: id (string): The unique identifier of the account username (string): The username of the account password (string): The password of the account (hashed and salted) character_ids (list of strings): The IDs of the characters associated with the account characters.json: Contains the character information, with each character represented as a JSON object with the following properties: id (string): The unique identifier of the character account_id (string): The ID of the account that owns the character name (string): The name of the character attributes (object): An object containing the attributes of the character (e.g., strength, dexterity, etc.) encrypted_data (string): The encrypted data used for validation Libraries and Frameworks Flask: A lightweight web framework for building the server-side application and RESTful API SQLAlchemy: An Object-Relational Mapping (ORM) library for managing the database models SocketIO: A library for enabling real-time bidirectional communication between the server and clients PyCryptodome: A library for cryptographic operations such as encryption and decryption Note that this is just one possible design, and the specific format and content of the JSON files may vary depending on the requirements of the project. Additionally, there may be other classes and methods required depending on the specific implementation of the game.
+
+For combat: Here's a summary of the key components of the combat system, broken down by file, class, and method, as well as some notes on using Python and JSON:
+
+File: character.py
+
+Class: Character Methods:
+
+init(self, stats, inventory, equipped_weapon, equipped_spells, hp): Initializes a new Character object with the given stats, inventory, equipped weapon and spells, and hit points.
+attack(self, target): Calculates and returns the result of an attack roll against the given target.
+roll_damage(self): Calculates and returns the result of a damage roll.
+take_damage(self, damage): Updates the character's hit points based on the given damage.
+File: weapon.py
+
+Class: Weapon Methods:
+
+init(self, name, damage, range, type): Initializes a new Weapon object with the given name, damage, range, and type.
+attack(self, character, target): Calculates and returns the result of an attack roll using this weapon against the given target.
+File: spell.py
+
+Class: Spell Methods:
+
+init(self, name, damage, range, type, save_dc): Initializes a new Spell object with the given name, damage, range, type, and save DC.
+cast(self, character, target): Calculates and returns the result of a saving throw against this spell cast by the given character against the given target.
+File: combat.py
+
+Class: Combat Methods:
+
+init(self, characters): Initializes a new Combat object with the given list of characters.
+start(self): Begins the combat encounter and determines the turn order.
+end(self): Ends the combat encounter.
+turn(self, character): Executes the turn for the given character, allowing them to take an action like attacking or casting a spell.
+File: difficulty.py
+
+Class: Difficulty Methods:
+
+init(self, enemy_stats): Initializes a new Difficulty object with the given enemy stats.
+adjust_stats(self, characters): Adjusts the stats of the given enemy characters based on the difficulty level.
+• combat_log.json: Stores data for the combat encounter, including the order of turns and the actions taken by each character.
+
+• settings.json: Stores data for the game settings, such as the difficulty level and any other configurable options.
+
+• templates.json: Stores data for various templates used in the game, such as character classes, enemy types, and other reusable components.
+
+Notes on using Python and JSON:
+
+• Python is used to create and manipulate objects in memory, while JSON is used to store and exchange data between systems.
+
+• Python's built-in json module can be used to read and write JSON data to and from files.
+
+• JSON data can be loaded into Python objects using the json.load() method, and dumped back to JSON format using the json.dump() method.
+
+• When working with JSON data, it's important to validate the data and handle any errors that may occur during parsing or serialization.

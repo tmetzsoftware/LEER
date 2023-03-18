@@ -1,0 +1,42 @@
+# Report for MAGORIA Project
+
+## Overview:
+
+MAGORIA - Masters of AI Generated Realms and Immersive Adventures - is a project that aims to create an immersive and engaging game world using artificial intelligence technology. The project leverages cutting-edge AI techniques to generate content in real-time, providing a unique gaming experience to players.
+
+## Mission and Vision:
+
+The mission of MAGORIA is to create an AI-powered game world that is immersive, engaging, and constantly evolving. The vision of the project is to provide players with a game world that is so convincing and lifelike that they become fully immersed in it, forgetting that it is an artificial creation.
+
+## Sub-Projects:
+
+### RAIDD - Real-time AI Dungeon Designer:
+
+RAIDD is an AI-based system that generates and designs the game world in real-time, providing a unique gaming experience to players. The system uses advanced algorithms to generate content that is engaging and immersive, allowing players to explore and interact with a vast and dynamic game world.
+
+#### Input Objectives:
+
+- Generate and design the game world in real-time
+- Provide an engaging and immersive gaming experience for players
+- Utilize advanced algorithms to create dynamic and evolving content
+
+#### Output Objectives:
+
+- Provide players with a unique and dynamic gaming experience
+- Generate and design a game world that is engaging and immersive
+- Utilize cutting-edge AI techniques to create content that is constantly evolving
+
+### AROMA - Artificial Recordkeeper of Mythical Adventures:
+
+AROMA is an AI-based system that ensures the coherence and consistency of the generated content in the MAGORIA game world. The system utilizes data to maintain the continuity of the story and plot points, allowing for the development of an engaging and immersive game experience for players.
+
+#### Input Objectives:
+
+- Ensure the coherence and consistency of the generated content
+- Use data to maintain the continuity of the story and plot points
+- Develop an engaging and immersive game experience for players
+
+#### Output Objectives:
+
+- Provide players with a seamless and engaging experience where the generated content is immersive and believable
+- Maintain the continuity of the story and plot points, allowing for the development of an ever-evolving game world
