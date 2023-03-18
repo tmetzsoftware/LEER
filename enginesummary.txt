@@ -1,12 +1,12 @@
-# Report for MAGORIA Project
+# Report for MAGIC Project
 
 ## Overview:
 
-MAGORIA - Masters of AI Generated Realms and Immersive Adventures - is a project that aims to create an immersive and engaging game world using artificial intelligence technology. The project leverages cutting-edge AI techniques to generate content in real-time, providing a unique gaming experience to players.
+MAGIC - Masters of AI Generated Into Campaigns - is a project that aims to create an immersive and engaging game world using artificial intelligence technology. The project leverages cutting-edge AI techniques to generate content in real-time, providing a unique gaming experience to players.
 
 ## Mission and Vision:
 
-The mission of MAGORIA is to create an AI-powered game world that is immersive, engaging, and constantly evolving. The vision of the project is to provide players with a game world that is so convincing and lifelike that they become fully immersed in it, forgetting that it is an artificial creation.
+The mission of MAGIC is to create an AI-powered game world that is immersive, engaging, and constantly evolving. The vision of the project is to provide players with a game world that is so convincing and lifelike that they become fully immersed in it, forgetting that it is an artificial creation.
 
 ## Sub-Projects:
 
@@ -28,7 +28,7 @@ RAIDD is an AI-based system that generates and designs the game world in real-ti
 
 ### AROMA - Artificial Recordkeeper of Mythical Adventures:
 
-AROMA is an AI-based system that ensures the coherence and consistency of the generated content in the MAGORIA game world. The system utilizes data to maintain the continuity of the story and plot points, allowing for the development of an engaging and immersive game experience for players.
+AROMA is an AI-based system that ensures the coherence and consistency of the generated content in the MAGIC game world. The system utilizes data to maintain the continuity of the story and plot points, allowing for the development of an engaging and immersive game experience for players.
 
 #### Input Objectives:
 
