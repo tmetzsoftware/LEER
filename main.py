@@ -1,4 +1,4 @@
-from dictionary_lookup import Dictionary, DictionaryErrorChecker
+from word_files.dictionary_lookup import Dictionary, DictionaryErrorChecker
 
 # Set paths for dictionary and thesaurus files
 dictionary_path = 'dictionary.json'

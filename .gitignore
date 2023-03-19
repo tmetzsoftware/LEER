@@ -1,0 +1,22 @@
+# Ignore Python bytecode files, logs, and database files
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.sqlite3
+
+# Ignore the .env file
+.env
+
+# Ignore other sensitive files
+*.key
+*.pem
+
+# Ignore IDE specific files and directories
+.vscode/
+.idea/
+
+# Ignore build output
+build/
+dist/
+*.egg-info/
