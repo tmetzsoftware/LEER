@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1361459a-5754-4503-b17b-78a6d054acb5" name="Changes" comment="Making the code work in git">
-      <change afterPath="$PROJECT_DIR$/database/convert_txt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/output.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="1361459a-5754-4503-b17b-78a6d054acb5" name="Changes" comment="Making the code work in git" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679184626884</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Making the code work in git">
+      <created>1679357981750</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679357981750</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
